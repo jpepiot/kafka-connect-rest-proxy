@@ -1,0 +1,11 @@
+<assembly>
+    <id>plugin</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>${project.artifactId}</outputDirectory>
+            <useProjectArtifact>true</useProjectArtifact>
+            <useTransitiveFiltering>true</useTransitiveFiltering>
+        </dependencySet>
+    </dependencySets>
+</assembly>
